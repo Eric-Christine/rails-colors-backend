@@ -1,24 +1,20 @@
-# README
+# 1:M Rails Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. `bundle install`
+2. `rails db:migrate`
+3. `rails db:seed`
+4. `rails s`
 
-Things you may want to cover:
+## Endpoints
 
-* Ruby version
+### Colors
 
-* System dependencies
+GET /colors<br>
+GET /colors/:id<br>
+POST /colors
 
-* Configuration
+### Users
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+GET /users<br>
+GET /users/:id<br>
+POST /users
